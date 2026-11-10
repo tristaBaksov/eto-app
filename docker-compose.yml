@@ -21,7 +21,7 @@ services:
       start_period: 3s
 
   frontend:
-    build: 
+    build:
       context: frontend/.
     image: etoosamoe/eto-frontend:latest
     # enable `platform: linux/arm64/v8` if you use ARM
